@@ -1,3 +1,8 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body{
     background: #A3CBE5;
     font-family: Arial, sans-serif;
@@ -9,4 +14,17 @@ h1{
 }
 p{
     font-size: 1.05em;
+}
+figure{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0 -2px;
+    overflow: hidden;
+    background: #fff;
+    border: 2px solid transparent;
+}
+figure img{
+    width: 100%;
+    height: 400px;
 }
